@@ -1,9 +1,5 @@
 public class NumberPalindrome {
 
-    public static void main(String[] args){
-        isPalindrome(1221);
-    }
-
     public static boolean isPalindrome (int number) {
         boolean result;
         if (number < -10){
@@ -18,7 +14,6 @@ public class NumberPalindrome {
                 copy /= 10;
                 reverse *= 10;
                 reverse += lastDigit;
-                System.out.println(reverse);
             } while (copy > 0);
 
             if (number == reverse) {
@@ -27,7 +22,6 @@ public class NumberPalindrome {
                 result = false;
             }
 
-        System.out.println(result);
         return result;
 
     }
