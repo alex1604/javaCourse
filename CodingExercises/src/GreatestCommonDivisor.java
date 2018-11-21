@@ -1,4 +1,4 @@
-public class GreatesCommonDivisor {
+public class GreatestCommonDivisor {
 
     public static int getGreatestCommonDivisor (int first, int second) {
         int result = 1;
